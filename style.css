@@ -1,0 +1,108 @@
+body {
+  font-family: Arial;
+}
+.navbar-expand-lg .navbar-nav li{
+   margin-left: 20px;
+}
+.hero {
+  height: 100vh;
+  background: linear-gradient(95deg, #007bff ,#6610f2 );
+}
+
+.card {
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.ms-auto {
+    text-align: center;
+}
+#imam{
+  height: 300px;
+  clip-path: circle(40%);
+}
+.btn{
+  transition: 0.4s;
+}
+.btn:active{
+  transform: scale(0.8);
+}
+
+#image{
+  width: 100%;
+  height: 100%;
+}
+#image img{
+  width: 100%;
+ object-fit: fill;
+  height:200px;
+}
+#logo{
+  width: 70px;
+  clip-path: circle(50%);
+  
+}
+.contact-card {
+  background: #ffffff;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 2px 2px 5px #bebebe,-1px -1px 2px #bebebe !important;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.contact-item {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.contact-item a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0d6efd;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgb(19 55 90) !important;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.social-links a i{
+  height: 40px;
+  width: 40px;
+  background-color: #0a58ca;
+  color: white;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 25px;
+}
+.fa-youtube{
+  background-color: rgba(255, 0, 0,.8) !important;
+}
+.fa-github{
+  background-color: black !important;
+}
+
+
