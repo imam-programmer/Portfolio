@@ -1,0 +1,21 @@
+@media (min-width:300px) and (max-width:575px){
+    #imam {
+    height: 202px;
+    clip-path: circle(40%);
+}
+#home .margin h1 {
+    font-size: 30px;
+}
+#logo {
+    width: 50px;
+}
+.navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    /* font-size: 42px !important; */
+}
+.navbar-toggler {
+    padding: 2px 5px;
+}
+}
