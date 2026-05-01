@@ -6,6 +6,9 @@
 #home .margin h1 {
     font-size: 30px;
 }
+.margin {
+    margin-top: -50px;
+}
 #logo {
     width: 50px;
 }
@@ -13,9 +16,52 @@
     width: 25px;
     height: 25px;
     background-size: 100%;
-    /* font-size: 42px !important; */
 }
 .navbar-toggler {
     padding: 2px 5px;
 }
+.social-links a i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+}
+/* ===========project start========== */
+@media (min-width:430px) and (max-width:575px){
+#image img {
+    height: 250px;
+}
+}
+
+/* ==========small device responsive start=========== */
+@media (min-width:576px) and (max-width:767px){
+    #imam {
+    height: 202px;
+    clip-path: circle(40%);
+}
+#home .margin h1 {
+    font-size: 30px;
+}
+.margin {
+    margin-top: -50px;
+}
+#logo {
+    width: 60px;
+}
+#image img {
+    height: 300px;
+}
+}
+/* =************medium device responsive start============== */
+@media (min-width:768px) and (max-width:991px) {
+.margin {
+    margin-top: -50px;
+}
+#logo {
+    width: 70px;
+}
+
 }
